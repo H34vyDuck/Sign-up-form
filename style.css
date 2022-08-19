@@ -1,23 +1,133 @@
 body{
+    font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
-    background-color: lightblue;
+    background: #A5C9CA;
+}
+img{
+    width: auto;
+    height: 80%;
+}
+.top{
+    font-size: 40pt;
 }
 .main{
     display: flex;
     flex-direction: row;
 }
+.transparent{
+    position: absolute;
+    top: 20%;
+    height: 20%;
+    width: 50%;
+    background-color: #395B64;
+    opacity: 0.5;
+}
 .logo{
     position: absolute;
     top: 20%;
     height: 20%;
-    width: 40%;
-    background-color: lightpink;
-    opacity: 65%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #eab308;
 }
 .info{
     position: absolute;
     right: 0;
-    width: 60%;
+    width: 50%;
     height: 100%;
-    background-color: lightseagreen;
+    background-color: #2C3333;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.description{
+    padding-left: 2.5%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    height: 20%;
+    font-size: larger;
+}
+.data{
+    height: 30%;
+    padding-left: 2.5%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.fill{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    row-gap: 35%;
+    column-gap: 5%;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+input[type=text] {
+    display: block;
+    background-color: #395B64;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  input[type=email] {
+    display: block;
+    background-color: #395B64;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  input[type=number] {
+    display: block;
+    background-color: #395B64;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  input[type=password] {
+    display: block;
+    background-color: #395B64;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.but{
+    padding-left: 2.5%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    height: 20%;
+    font-size: normal;
+}
+.button {
+    border: none;
+    color: white;
+    background-color: #395B64;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #eab308;
+    display: inline-block;
 }
